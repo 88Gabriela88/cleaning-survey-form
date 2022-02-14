@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+  background-color: #e0e0d1;
+}
+#body {
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  text-align: left;
+  background-color: #83afaf;
+  font-family: verdana;
+}
+#description{
+  font-style: italic;
+  font-family: verdana;
+}
+#name{
+  width: 376px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#email{
+  width: 376px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#age{
+  width: 376px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#comments{
+  width: 376px;
+  padding: 10px;
+  border-radius: 10px;
+  font-style: italic;
+  color: grey;
+}
+#submit{
+  width: 400px;
+  adding: 8px;
+  background-color: #141f1f;
+  color: white;
+}

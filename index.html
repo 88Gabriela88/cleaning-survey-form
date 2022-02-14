@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <h1 id ="title">Cleaning Services Survey Form</h1>
+  <p id ="description">Thank you for your time to fill this survey!</p>
+  <div id="body">
+  <form id="survey-form"></form>
+  <label id "name-label" for="name">
+    <p>Name:</p></label>
+  <input id="name"type="text"placeholder="name"required></input>
+  <label id "email-label" for="email">
+  <p>Email:</p></label>
+  <input id="email"type="email"placeholder="email"required></input>
+  <label id "number-label" for="number">
+    <p>Age:</p></label>
+  <input id="age"type="number"placeholder="age"min="18"max="99"required></input>
+  <p>How big is your propety?</p>
+  <select id="dropdown">
+    <option value="default">Studio-flat</option>
+    <option value="2">One bedroom house</option>
+    <option value="3">Two or three bedrooms house</option>
+    <option value="4">Four or more bedrooms house</option>
+  </select>
+  <p>What is the frequency of cleaning services required?</p>
+  <input type="radio"name="twice"value="1">Twice/week</input>
+  <input type="radio"name="once"value="2">Once/week</input>
+  <input type="radio"name="fortnight"value="3">Fortnight</input>
+  <p>What brands of cleaning products do you prefer?</p>
+  <input type="checkbox"name="any"value="1">No preferences</input><br>
+    <input type="checkbox"name="supermarket"value="2">Supermarket brands</input><br>
+  <input type="checkbox"name="ecover"value="3">Eco products</input><br>
+  <input type="checkbox"name="other"value="4">Other</input>
+  <p>For comments and orders please complete below!</p>
+  <textarea id="comments"rows="4"cold="40">Comments and order complete here:</textarea>
+  <input id="submit"type="submit"value="submit"
+         </div>   
+  </form>
